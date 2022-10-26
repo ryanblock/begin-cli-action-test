@@ -20,5 +20,6 @@ jobs:
         uses: beginner-corp/actions/deploy@testing
         with:
           begin_token: ${{ secrets.BEGIN_TOKEN }}
+          begin_env_name: staging
           log: 'debug'
           begin_args: '--sample arg'

@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Deploy build
-        uses: beginner-corp/action-deploy
+        uses: beginner-corp/action-deploy@main
         with:
           begin_token: ${{ secrets.BEGIN_TOKEN }}
           log: 'debug'

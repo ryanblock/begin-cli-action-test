@@ -8,10 +8,10 @@ defaults:
     shell: bash
 
 jobs:
-  runs-on: ubuntu-latest
-
   # Deploy the build
   deploy:
+    runs-on: ubuntu-latest
+
     steps:
       - name: Check out repo
         uses: actions/checkout@v3

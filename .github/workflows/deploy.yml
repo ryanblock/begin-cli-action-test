@@ -21,5 +21,6 @@ jobs:
         with:
           begin_token: ${{ secrets.BEGIN_TOKEN }}
           begin_env_name: staging
-          log: 'debug'
           begin_args: '--sample arg'
+          log: 'debug'
+          channel: 'main'
